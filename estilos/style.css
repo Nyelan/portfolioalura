@@ -35,10 +35,14 @@ body{
     font-weight: 400;
     text-decoration: none;
     color: #F8F1F1;
+    transition: 0.4s;
+}
+.cabecalho__menu__link:hover{
+    color: var(--cor-secundaria);
 }
 
 h1{
-    color: var(--cor-secundaria);
+    color: var(--cor-quartenaria);
 }
 
 strong{
@@ -62,9 +66,19 @@ strong{
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
+.apresentacao__conteudo__titulo__h2{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+}
 .apresentacao__conteudo__texto{
     font-size: 1.35rem;
     font-family: var(--fonte-secundaria);
+}
+.apresentacao__conteudo__texto__li{
+    font-size: 1.35rem;
+    font-family: var(--fonte-secundaria);
+    list-style-position: inside;
 }
 .apresentacao__links{
     display: flex;
@@ -94,7 +108,7 @@ strong{
     text-decoration: none;
     transition: 0.4s;
 }
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-terciaria);
 }
 
