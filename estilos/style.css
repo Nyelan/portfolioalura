@@ -155,6 +155,7 @@ strong{
     }
     .cabecalho__menu{
         justify-content: center;
+        gap: 1.66rem;
     }
     
     .apresentacao{
