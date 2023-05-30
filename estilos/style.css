@@ -71,7 +71,7 @@ strong{
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
 }
-.apresentacao__conteudo__texto{
+.apresentacao__conteudo__texto, p{
     font-size: 1.35rem;
     font-family: var(--fonte-secundaria);
 }
@@ -125,6 +125,30 @@ strong{
     font-size: 20px;
 }
 
+/* Aba Projetos */
+.apresentacao__conteudo__projetos{
+    width: 100%;
+    text-align: center;
+}
+.apresentacao__container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.apresentacao__container__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 49%;
+    margin: 5% 5px;
+}
+.apresentacao__container__card__img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
 @media(max-width: 1200px){
     .cabecalho{
         padding: 10%;
@@ -141,5 +165,11 @@ strong{
         width: auto;
     }
 
+    .apresentacao__container{
+        flex-direction: column;
+    }
+    .apresentacao__container__card{
+        width: auto;
+    }
     
 }
